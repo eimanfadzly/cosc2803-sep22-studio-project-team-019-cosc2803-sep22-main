@@ -1,0 +1,57 @@
+Information about the lga_long_term_health_conditions_by_indigenous_status_by_sex data sets for the 2021 census ONLY.
+Based on Australian Bureau of Statistics data.
+
+LGA based data for Long-Term Health Conditions by Indigenous Status and by Sex, 2021 Census.
+Count of persons reporting various types of Long-Term Health Conditions for Aboriginal and/or Torres Strait Islander Persons.
+The count of Long-Term Health Conditions was introduced in the 2021 census.
+
+Note: There are small random adjustments made to all cell values to protect the confidentiality of data.
+For more information visit the data source: http://www.abs.gov.au/census.
+
+--------
+Copyright Australian Bureau of Statistics (ABS)
+Creative Commons Attribution 4.0 International licence
+ABS data used with permission from the Australian Bureau of Statistics
+
+--------
+COSC2803 Notes on these datasets
+These data sets are based on the Australian Bureau of Statistics (ABS) 2021 Census of Population and Housing, Aboriginal and Torres Strait Islander Profile Tables. The original datasets are available from the ABC website (https://www.abs.gov.au/census). These datasets have been modified for use in COSC2803 (Programming Studio 1) in the School of Computing Technologies at RMIT University. The modifications include, but are not limited to: (1) use of a subset of columns, (2) renaming of columns, and (3) LGA codes format.
+
+--------
+Columns of the data set is described below.
+
+----
+lgacode21
+
+Contains the LGA code for the 2021 calendar year.
+
+----
+Demographic statistics columns
+The demographics statistics columns record the number of people within each LGA whom reported themselves as being within the given demographic bracket.
+Note: The ABS makes small random adjustments made to all cell values to protect the confidentiality of data.
+
+The column name encodes the demographic information, as follows:
+<condition>_<status>_<sex>
+
+Condition is the type of Long-Term Health Condition. Condition is categorised and encoded as:
+- arthritis: Those suffering from Arthritis
+- asthma: Those suffering from Asthma
+- cancer: Those suffering from Cancer (any type) including remission
+- dementia: Those suffering from Dementia (at any stage) including Alzheimers
+- diabetes: Those suffering from Diabetes excluding Gestational Diabetes
+- heartdisease: Those suffering from Heart Disease including Heart Attack or Angina
+- kidneydisease: Those suffering from Kidney Disease
+- lungcondition: : Those suffering from any form of Lung Condition including Chronic obstructive pulmonary disease (COPD) or Emphysema
+- mentalhealth: Those reporting any type of Mental Health Condition including depression or anxiety
+- stroke: Those who suffered a Stroke and ongoing long-term health impacts
+- other: Those suffering from a Long-Term Health Condition not listed above
+
+Status is categorised and encoded as:
+- Indigenous (indig)
+- Non-indigenous (non_indig)
+- Indigenous status was not specified (indig_stat_notstated)
+
+Sex is categorised and encoded as:
+ - Female (f)
+ - Male (m)
+

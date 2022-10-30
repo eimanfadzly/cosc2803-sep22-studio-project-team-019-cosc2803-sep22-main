@@ -1,0 +1,80 @@
+Information about the lga_total_household_income_weekly_by_indigenous_status_of_household data sets for the 2016 census and 2021 census.
+Based on Australian Bureau of Statistics data.
+
+LGA based data for Total Household Weekly Income by Indigenous Status of the Household, 2016 Census and 2021 Census.
+Count of households reporting a weekly income within various brackets, categories by the indigenous status of the household.
+
+Note: There are small random adjustments made to all cell values to protect the confidentiality of data.
+For more information visit the data source: http://www.abs.gov.au/census.
+
+--------
+Copyright Australian Bureau of Statistics (ABS)
+Creative Commons Attribution 4.0 International licence
+ABS data used with permission from the Australian Bureau of Statistics
+
+--------
+COSC2803 Notes on these datasets
+These data sets are based on the Australian Bureau of Statistics (ABS) 2016 and 2021 Census of Population and Housing, Aboriginal and Torres Strait Islander Profile Tables. The original datasets are available from the ABC website (https://www.abs.gov.au/census). These datasets have been modified for use in COSC2803 (Programming Studio 1) in the School of Computing Technologies at RMIT University. The modifications include, but are not limited to: (1) use of a subset of columns, (2) renaming of columns, and (3) LGA codes format.
+
+--------
+Columns of the data set is described below.
+
+----
+lgacode16/21
+
+Contains the LGA code for the 2016/2021 calendar year.
+
+----
+Demographic statistics columns
+The demographics statistics columns record the number of household within each LGA whom reported themselves as being within the given demographic bracket.
+Note: The ABS makes small random adjustments made to all cell values to protect the confidentiality of data.
+
+The column name encodes the demographic information, as follows:
+<income>_<status>
+
+Income is the Weekly Income Bracket for the household. That is, the Weekly Income includes all persons of the household. 
+Note: there are changes in Weekly Income Brackets between the 2016 and 2021 Census.
+
+Weekly Income Brackets in the 2021 Census are categorised and encoded as:
+- 1_149: Weekly Income for the household between $1 and $149
+- 150_299: Weekly Income for the household between $150 and $299
+- 300_399: Weekly Income for the household between $300 and $399
+- 400_499: Weekly Income for the household between $400 and $499
+- 500_649: Weekly Income for the household between $500 and $649
+- 650_799: Weekly Income for the household between $650 and $799
+- 800_999: Weekly Income for the household between $800 and $999
+- 1000_1249: Weekly Income for the household between $1000 and $1249
+- 1250_1499: Weekly Income for the household between $1250 and $1499
+- 1500_1749: Weekly Income for the household between $1500 and $1749
+- 1750_1999: Weekly Income for the household between $1750 and $1999
+- 2000_2499: Weekly Income for the household between $2000 and $2499
+- 2500_2999: Weekly Income for the household between $2500 and $2999
+- 3000_3499: Weekly Income for the household between $3000 and $3499
+- 3500_more: Weekly Income for the household at or above $3500
+
+
+Weekly Income Brackets in the 2016 Census are categorised and encoded as:
+- 1_149: Weekly Income for the household between $1 and $149
+- 150_299: Weekly Income for the household between $150 and $299
+- 300_399: Weekly Income for the household between $300 and $399
+- 400_499: Weekly Income for the household between $400 and $499
+- 500_649: Weekly Income for the household between $500 and $649
+- 650_799: Weekly Income for the household between $650 and $799
+- 800_999: Weekly Income for the household between $800 and $999
+- 1000_1249: Weekly Income for the household between $1000 and $1249
+- 1250_1499: Weekly Income for the household between $1250 and $1499
+- 1500_1999: Weekly Income for the household between $1500 and $1999 (** Change here - 2021 divided this into 2 brackets)
+- 2000_2499: Weekly Income for the household between $2000 and $2499
+- 2500_2999: Weekly Income for the household between $2500 and $2999
+- 3000_more: Weekly Income for the household at or above $3000 (** Change here - 2021 added 1 additional bracket)
+
+Status is the Indigenous status of the household. A household is considered to be Indigenous if at least one member of the household identified as Indigenous. The Status additional provides the total number of households. Note that there may be small errors in the totals, due to the ABS random adjustments, and some household not reporting income.
+Status is categorised and encoded as:
+- hhds_with_indig_persons: The household contains at least one member of the household that identifies as Indigenous
+- other_hhds: All other households
+- total_hhds Total number of households in the LGA
+
+Sex is categorised and encoded as:
+ - Female (f)
+ - Male (m)
+

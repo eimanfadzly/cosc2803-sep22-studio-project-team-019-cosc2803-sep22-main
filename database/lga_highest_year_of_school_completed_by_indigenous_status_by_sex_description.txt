@@ -1,0 +1,55 @@
+Information about the lga_highest_year_of_school_completed_by_indigenous_status_by_sex data sets for 2016 census and 2021 census.
+Based on Australian Bureau of Statistics data.
+
+LGA based data for Highest Year of School Completed by Indigenous Status by Sex, 2016 Census and 2021 Census.
+This provides Persons aged 15 years and over who are no longer attending secondary school (by year level).
+The data is by LGA boundaries. Periodicity: 5-Yearly
+
+Note: There are small random adjustments made to all cell values to protect the confidentiality of data.
+For more information visit the data source: http://www.abs.gov.au/census.
+
+--------
+Copyright Australian Bureau of Statistics (ABS)
+Creative Commons Attribution 4.0 International licence
+ABS data used with permission from the Australian Bureau of Statistics
+
+--------
+COSC2803 Notes on these datasets
+These data sets are based on the Australian Bureau of Statistics (ABS) 2016 and 2021 Census of Population and Housing, Aboriginal and Torres Strait Islander Profile Tables. The original datasets are available from the ABC website (https://www.abs.gov.au/census). These datasets have been modified for use in COSC2803 (Programming Studio 1) in the School of Computing Technologies at RMIT University. The modifications include, but are not limited to: (1) use of a subset of columns, (2) renaming of columns, and (3) LGA codes format.
+
+
+--------
+Columns of the data set is described below.
+
+----
+lgacode16/21
+
+Contains the LGA code for the 2016/2021 calendar year.
+
+----
+Demographic statistics columns
+The demographics statistics columns record the number of people within each LGA whom were counted with in the given demographic bracket.
+Note: The ABS makes small random adjustments made to all cell values to protect the confidentiality of data.
+
+The column name encodes the demographic information, as follows:
+_<category>_<status>_<sex>
+
+Category is either a school education demographic, for primary to high-school years (K-12).
+
+Education demographics are categorised as:
+- Did not attend School (did_not_go_to_school)
+- Year 8 or Below (y8_below)
+- Year 9 or Equivalent (y9_equivalent)
+- Year 10 or Equivalent (y10_equivalent)
+- Year 11 or Equivalent (y11_equivalent)
+- Year 12 or Equivalent (y12_equivalent)
+
+Status is categorised and encoded as:
+- Indigenous (indig)
+- Non-indigenous (non_indig)
+- Indigenous status was not specified (indig_stat_notstated)
+
+Sex is categorised and encoded as:
+ - Female (f)
+ - Male (m)
+

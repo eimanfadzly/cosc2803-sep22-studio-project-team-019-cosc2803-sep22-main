@@ -1,0 +1,609 @@
+/* External CSS style file */
+
+* {
+   box-sizing: border-box;
+}
+
+/* Header (div) formatting */
+.header {
+   padding: 5px;
+   text-align: center;
+   background-color: #ffffff;
+   color: #fffdfd;
+   
+}
+
+.header h1 {
+   font-size: 40px;
+   color: #333;
+   font-style: normal;
+   font-family: 'Playfair Display', serif;
+}
+
+/* Banner */
+.flexbox-imageup {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("row 1.png");
+  height: 615;
+
+}
+
+.flexbox-imageup h2 {
+  position: relative;
+  left: 20px;
+  top: 450px;
+  font-size: 40px;
+  color: #ffffff;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+}
+  
+/* Text Box */
+.firsttext {
+  display: flex;
+  justify-content: center;
+}
+
+.textbox {
+  text-align: center;
+  color: #804000;
+  background-color: #fff9e6;
+  width: 600;
+  height: 250;
+  padding: 5px;
+  border: 10px solid #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+}
+
+/* Highlighted outcomes */
+.highlight-outcomes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.titleoutcome {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: large;
+  background-color: #804000;
+  width: 800;
+  height: 80;
+  border: 10px solid #ffffff;
+}
+
+.three-outcomes {
+  width: 700;
+  height: 180;
+  color: #804000;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background:  #fff9e6;
+}
+
+
+/* Make the logo have a rounded edge */
+img.top-image {
+   vertical-align: middle;
+}
+
+/* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+/* Style the top navigation bar */
+.topnav {
+  background: #d3d3d3;
+  border-radius: 35px;
+  padding: 0px 20px;
+  line-height: 50px !important;
+  margin: auto;
+    
+ }
+
+ /*rgb(41, 92, 195*/
+ 
+ /* Style the topnav links */
+ .topnav a {
+  color: #ffffff !important;
+  background: transparent;
+  border-color: #1172c4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  padding: 0px 10px !important;
+  transition: all 0.2s linear;
+  line-height:45px;
+  
+ }
+
+ .topnav a {
+  color:#1172c4 !important;
+ }
+ 
+ /* Change color on hover */
+ .topnav a:hover {
+  color: #ffffff !important;
+  background: #1172c4;
+  border-color: #1172c4;
+ }
+
+ li.topnav :hover a {
+  color:#ffffff !important;
+ }
+
+ .topnav:active{
+  border-radius: 22px;
+ }
+ 
+ /* Style the content */
+ .content {
+   background-color: #ffffff;
+   padding: 10px;
+ }
+ 
+ /* Style the footer */
+ .footer {
+   background-color: #804000;
+   color: #ffffff;
+   padding: 10px;
+ }
+
+ .didyouknow {
+  text-align: center;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+ }
+
+ /* First Fact */
+ .Neville-Bonner {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px;
+ }
+
+ .Neville-images {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  width: 550;
+  height: 200;
+  background-image: url("bonner 1.jpg");
+  background-size: cover;
+  animation: change1 10s infinite ease-in-out;
+ }
+
+ @keyframes change1{
+  0%
+  {
+      background-image: url("bonner 2.png");
+  }
+  25%
+  {
+      background-image: url("bonner 3.png");
+  }
+  50%
+  {
+      background-image: url("bonner 6.png");
+  }
+  75%
+  {
+      background-image: url("bonner 1.jpg");
+  }
+  100%
+  {
+      background-image: url("bonner 5.png");
+  }
+  /*
+  100%
+  {
+      background-image: url("bonner 4.png");
+  }
+  */
+}
+
+.Neville-text {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  background-color: #fff9e6;
+  width: 550;
+  height: 200;
+}
+
+.Neville-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #804000;
+}
+
+.Neville-text h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #804000;
+}
+
+
+/* Second Fact*/
+.trachoma {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px;
+ }
+
+ .trachoma-images {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  width: 550;
+  height: 200;
+  background-image: url("trachoma 1.png");
+  background-size: cover;
+  animation: change2 10s infinite ease-in-out;
+ }
+
+ @keyframes change2{
+  0%
+  {
+      background-image: url("trachoma 2.png");
+  }
+  25%
+  {
+      background-image: url("trachoma 3.png");
+  }
+  50%
+  {
+      background-image: url("trachoma 4.png");
+  }
+  75%
+  {
+      background-image: url("trachoma 1.png");
+  }
+  100%
+  {
+      background-image: url("trachoma 3.png");
+  }
+  /*100%
+  {
+      background-image: url("back 3.png");
+  }*/
+}
+
+.trachoma-text {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  background-color: #fff9e6;
+  width: 550;
+  height: 200;
+}
+
+.trachoma-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #804000;
+}
+
+.trachoma-text h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #804000;
+}
+
+/* Third Fact*/
+.Bronwyn-Bancroft {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px;
+ }
+
+ .Bancroft-images {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  width: 550;
+  height: 200;
+  background-image: url("bancroft 1.png");
+  background-size: cover;
+  animation: change3 10s infinite ease-in-out;
+ }
+
+ @keyframes change3{
+  0%
+  {
+      background-image: url("bancroft 2.png");
+  }
+  25%
+  {
+      background-image: url("bancroft 3.png");
+  }
+  50%
+  {
+      background-image: url("bancroft 1.png");
+  }
+  75%
+  {
+      background-image: url("bancroft 4.png");
+  }
+  100%
+  {
+      background-image: url("bancroft 5.png");
+  }
+  /*100%
+  {
+      background-image: url("back 3.png");
+  }*/
+}
+
+.Bancroft-text {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  background-color: #fff9e6;
+  width: 550;
+  height: 200;
+}
+
+.Bancroft-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #804000;
+}
+
+.Bancroft-text h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #804000;
+}
+
+.readmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.readbutton {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  background-color: #b33c00;
+  width: 220;
+  height: 80; 
+  border: 10px solid #ffffff;
+  padding: 0px;
+}
+
+
+
+
+
+/* Line Pattern*/
+.line {
+  padding: 5px;
+  background-image: url("line 2.png") ;
+  background-size: contain;
+  height: 110;
+  border: 10px solid #ffffff;
+}
+
+/* 17 Socioeconomic outcomes */
+ .sociooutcomes {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  
+ }
+
+ .agreementtitle {
+  padding: 10px;
+  border : 5px solid #ffffff;
+  background-color: #ffffff;
+  justify-content: center;
+  width: 550;
+  height: 170; 
+  align-items: center;
+ }
+
+ .agreementtitle img {
+  align-items: center;
+  justify-content: center;
+ }
+
+ .agreementtitle h1{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #804000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+   }
+
+ .seventeenoutcomes {
+  padding: 10px;
+  border : 5px solid #ffffff;
+  background-color: #fff9e6;
+ }
+
+
+/*
+ 
+ .flexbox-container {
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row;
+ }
+
+ .first-fact {
+  width: 446.5;
+  margin: 5px;
+  background-color: #ddd;
+  text-align: center;
+ }
+
+ .aboriginal-flag {
+  min-height: 100px;
+  
+ }
+
+ 
+ .indigenous-flag {
+  width: 400;
+  height: auto;
+  background-image: url("flags.png");
+  background-size: cover;
+  
+ }
+
+ .torres-strait-islander-flag{
+  min-height: 200px;
+ }
+
+ 
+ .flexbox-container1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.second-fact {
+ width: 446.5;
+ margin: 5px;
+ border : 3px solid #333;
+ background-color: #ddd;
+}
+
+.dreamtime {
+ min-height: 100px;
+ background-color: #f5f2f2;
+}
+
+.tagai {
+ width: 400;
+ height: auto;
+ 
+}
+ .images-slogan {
+  position: relative;
+  left: 0px;
+  top: 50px;
+ }
+
+ */
+
+.selectoutcome {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectoutcome h3{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 30;
+  background-color: #b3b3b3;
+  width: 800;
+  height: 80;
+  border: 5px solid #000000;
+  padding: 10px;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.longhealthylives {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  background-color: #fff9e6;
+  width: 300;
+  height: 60;
+  color: #804000;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.learningpotential {
+  padding: 10px;
+  border: 5px solid #ffffff;
+  background-color: #fff9e6;
+  width: 300;
+  height: 60;
+  color: #804000;
+  text-align: center;
+}
+
+.participation{
+  padding: 10px;
+  border: 5px solid #ffffff;
+  background-color: #fff9e6;
+  width: 300;
+  height: 60;
+  color: #804000;
+  text-align: center;
+}
+
+.sorting-display {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+ 
+.sorting {
+  width: 200;
+  height: 350;
+  background-color: #fff9e6;
+  text-align: center;
+  border: 10px solid #ffffff;
+}
+
+.display {
+  width: 1500;
+  height: 1000;
+  background-color: #b3b3b3;
+  border: 10px solid #ffffff;
+}
+
+/*
+.agerange {
+  padding: 10px;
+  width: 200;
+  height: 150;
+  border: 10px solid #ffffff;
+  background-color: #fff9e6;
+  
+}
+
+.gender {
+  padding: 10px;
+  width: 200;
+  height: 150;
+  border: 10px solid #ffffff;
+  background-color: #fff9e6;
+ 
+}
+
+.order {
+  padding: 10px;
+  width: 200;
+  height: 150;
+  border: 10px solid #ffffff;
+  background-color: #fff9e6;
+ 
+}
+*/
