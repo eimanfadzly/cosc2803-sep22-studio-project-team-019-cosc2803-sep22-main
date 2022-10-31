@@ -119,37 +119,55 @@ public class PageIndex implements Handler {
         
         // Highlighted outcomes
         html = html + """
-            <p>Collapsible Set:</p>
-            <button class='collapsible'>Open Section 1</button>
+            <p>Our focuses are</p>
+            <button class='collapsible'>ABORIGINAL AND TORRES STRAIT ISLANDER PEOPLE ENJOY LONG AND HEALTHY LIVES</button>
             <div class='content'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Target : Close the Gap in life expectancy within a generation, by 2031.</p>
             </div>
-            <button class='collapsible'>Open Section 2</button>
+            <button class='collapsible'> ABORIGINAL AND TORRES STRAIT ISLANDER STUDENTS ACHIEVE THEIR FULL LEARNING POTENTIAL</button>
             <div class='content'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Target : By 2031, increase the proportion of Aboriginal and Torres Strait Islander people (age 20-24) attaining year 12 or equivalent qualification to 96 per cent.</p>
             </div>
-            <button class='collapsible'>Open Section 3</button>
+            <button class='collapsible'>STRONG ECONOMIC PARTICIPATION AND DEVELOPMENT OF ABORIGINAL AND TORRES STRAIT ISLANDER PEOPLE AND COMMUNITIES</button>
             <div class='content'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Target : By 2031, increase the proportion of Aboriginal and Torres Strait Islander people aged 25-64 who are employed to 62 per cent.</p>
             </div>
+            """;
+                    
+        html = html + """
 
             <script>
-            var coll = document.getElementsByClassName('collapsible');
-            var i;
+                var coll = document.getElementsByClassName('collapsible');
+                var i;
 
-            for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener('click', function() {
-            this.classList.toggle('active');
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-            content.style.maxHeight = null;
-            } else {
-            content.style.maxHeight = content.scrollHeight + 'px';
-            } 
-            });
-            }
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener('click', function()) {
+                        this.classList.toggle('active');
+                        var content = this.nextElementSibling;
+                        if (content.style.maxHeight){
+                            content.style.maxHeight = null;
+                        } else {
+                            content.style.maxHeight = content.scrollHeight + 'px';
+                        } 
+                    };
+                }
+
             </script>
+
             """;
+
+        html = html + """
+            <div class = 'explore-options'>
+                <h3> You can explore them yourself </h3>
+                    <ul> 
+                     <li> 2021 Census </li>
+                     <li> Focused view by LGA </li>
+                     <li> The Gap Score </li>
+                     <li> Similarities by LGA </li>
+
+            </div>
+                
+                """;
 
 
         // Did you know that...

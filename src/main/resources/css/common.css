@@ -90,7 +90,8 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background:  #fff9e6;
+  background-image: url("back 9.png");
+  background-size:auto;
 }
 
 
@@ -102,43 +103,43 @@ img.top-image {
 /* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
 /* Style the top navigation bar */
 .topnav {
-  background: #d3d3d3;
+  overflow: hidden;
+  background-color: #804000;
+  align-items: center;
+  
   border-radius: 35px;
   padding: 0px 20px;
   line-height: 50px !important;
   margin: auto;
-    
  }
 
  /*rgb(41, 92, 195*/
  
  /* Style the topnav links */
  .topnav a {
-  color: #ffffff !important;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   background: transparent;
-  border-color: #1172c4;
   border-style: solid;
   border-width: 2px;
   border-radius: 50px;
   padding: 0px 10px !important;
   transition: all 0.2s linear;
-  line-height:45px;
-  
- }
-
- .topnav a {
-  color:#1172c4 !important;
+  line-height: 45px;
  }
  
  /* Change color on hover */
  .topnav a:hover {
-  color: #ffffff !important;
-  background: #1172c4;
-  border-color: #1172c4;
+  background-color: #fff9e6;
+  color: #804000;
+  border-color: #4d2600;
  }
 
  li.topnav :hover a {
-  color:#ffffff !important;
+  color: #fff9e6;
  }
 
  .topnav:active{
@@ -605,5 +606,41 @@ img.top-image {
   border: 10px solid #ffffff;
   background-color: #fff9e6;
  
+}
+*/
+.collapsible {
+  background-color: #804000;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible:active:after {
+  content: "\2212";
+}
+/*
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
 }
 */
