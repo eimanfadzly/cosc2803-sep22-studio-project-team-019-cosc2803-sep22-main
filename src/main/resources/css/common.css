@@ -204,12 +204,6 @@ img.top-image {
   {
       background-image: url("bonner 5.png");
   }
-  /*
-  100%
-  {
-      background-image: url("bonner 4.png");
-  }
-  */
 }
 
 .Neville-text {
@@ -272,10 +266,6 @@ img.top-image {
   {
       background-image: url("trachoma 3.png");
   }
-  /*100%
-  {
-      background-image: url("back 3.png");
-  }*/
 }
 
 .trachoma-text {
@@ -337,10 +327,6 @@ img.top-image {
   {
       background-image: url("bancroft 5.png");
   }
-  /*100%
-  {
-      background-image: url("back 3.png");
-  }*/
 }
 
 .Bancroft-text {
@@ -431,73 +417,6 @@ img.top-image {
   border : 5px solid #ffffff;
   background-color: #fff9e6;
  }
-
-
-/*
- 
- .flexbox-container {
-   display: flex;
-   justify-content: flex-end;
-   flex-direction: row;
- }
-
- .first-fact {
-  width: 446.5;
-  margin: 5px;
-  background-color: #ddd;
-  text-align: center;
- }
-
- .aboriginal-flag {
-  min-height: 100px;
-  
- }
-
- 
- .indigenous-flag {
-  width: 400;
-  height: auto;
-  background-image: url("flags.png");
-  background-size: cover;
-  
- }
-
- .torres-strait-islander-flag{
-  min-height: 200px;
- }
-
- 
- .flexbox-container1 {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-}
-
-.second-fact {
- width: 446.5;
- margin: 5px;
- border : 3px solid #333;
- background-color: #ddd;
-}
-
-.dreamtime {
- min-height: 100px;
- background-color: #f5f2f2;
-}
-
-.tagai {
- width: 400;
- height: auto;
- 
-}
- .images-slogan {
-  position: relative;
-  left: 0px;
-  top: 50px;
- }
-
- */
-
 .selectoutcome {
   display: flex;
   justify-content: center;
@@ -517,97 +436,6 @@ img.top-image {
   padding: 10px;
 }
 
-.explore {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 5px;
-  text-align: center;
-  align-items: center;
-  
-}
-
-.longhealthylives {
-  padding: 10px;
-  border: 5px solid #ffffff;
-  background-color: #fff9e6;
-  width: 300;
-  height: 60;
-  color: #804000;
-  text-align: center;
-  padding: 10px;
-  
-}
-
-.learningpotential {
-  padding: 10px;
-  border: 5px solid #ffffff;
-  background-color: #fff9e6;
-  width: 300;
-  height: 60;
-  color: #804000;
-  text-align: center;
-}
-
-.participation{
-  padding: 10px;
-  border: 5px solid #ffffff;
-  background-color: #fff9e6;
-  width: 300;
-  height: 60;
-  color: #804000;
-  text-align: center;
-}
-
-.sorting-display {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-}
- 
-.sorting {
-  width: 200;
-  height: 350;
-  background-color: #fff9e6;
-  text-align: center;
-  border: 10px solid #ffffff;
-}
-
-.display {
-  width: 1500;
-  height: 1000;
-  background-color: #b3b3b3;
-  border: 10px solid #ffffff;
-}
-
-/*
-.agerange {
-  padding: 10px;
-  width: 200;
-  height: 150;
-  border: 10px solid #ffffff;
-  background-color: #fff9e6;
-  
-}
-
-.gender {
-  padding: 10px;
-  width: 200;
-  height: 150;
-  border: 10px solid #ffffff;
-  background-color: #fff9e6;
- 
-}
-
-.order {
-  padding: 10px;
-  width: 200;
-  height: 150;
-  border: 10px solid #ffffff;
-  background-color: #fff9e6;
- 
-}
-*/
 .collapsible {
   background-color: #804000;
   color: white;

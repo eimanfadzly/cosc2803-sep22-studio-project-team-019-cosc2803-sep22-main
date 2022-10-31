@@ -328,67 +328,7 @@ public class PageIndex implements Handler {
         */
 
 
-        /* 
-        
-        html = html + """
-                <div class = 'Flexbox-container'> 
-
-                    <div class = 'first-fact aboriginal-flag'> 
-                    <h3>THE ABORIGINAL FLAG </h3>
-                    
-                    <p>was designed in the 1970s and its colours represent different 
-                    aspects of Aboriginal life. The black symbolises Aboriginal people, the yellow represents the sun 
-                    and the red represents the earth and the relationship between people and the land.</p>
-                    </div>
-
-                    <div class = 'first-fact indigenous-flag'> 
-                        <h1></h1>
-                    </div>
-
-                    <div class = 'first-fact torres-strait-islander-flag'> 
-                    <h3>THE TORRES STRAIT ISLANDER FLAG</h3>
-                    
-                    <p>was designed in the 1990s and features a white 
-                    dharri or deri (a type of headdress) with a five-pointed star representing the 
-                    different island groups. The white represents peace, the green represents land, 
-                    the black represents the people and the blue represents the sea.</p>
-                    </div>
-                    
-                </div>
-                """;
-
-        //third row facts
-        html = html + """
-                <div class = 'Flexbox-container1'> 
-    
-                    <div class = 'second-fact dreamtime'> 
-                    <img src='the dreamtime.png' class='top-image' alt='dreamtime artwork' height='200'>
-                    <h3> The Dreamtime </h3>
-
-                    <p>Aboriginals believe that the Dreamtime was way back, at the very beginning. 
-                    The land and the people were created by the Spirits. They made the rivers, streams,
-                    water holes the land, hills, rocks, plants and animals. It is believed that the 
-                    Spirits gave them their hunting tools and each tribe its land, their totems and their Dreaming.</p>
-
-                    <p>The Aboriginals believed that the entire world was made by their Ancestors way back</p>
-                    in the very beginning of time, the Dreamtime. The Ancestors made everything.
-                    </div>
-    
-                    <div class = 'second-fact tagai'> 
-                    <img src='tagai.png' class='top-image' alt='tagai star' height='200'>
-                    <h2>The Tagai </h2>
-
-                    <p>Torres Strait Islander culture and spirituality are closely linked to the stars 
-                    and the stories of Tagai, a great fisherman and spirit being whom the Torres Strait 
-                    Islander peoples believe created the world. Tagai is represented by a constellation of 
-                    stars in the southern sky. Torres Strait Islander law, customs, and practices are 
-                    shaped by the Tagai stories. The Torres Strait Islander peoples’ deep knowledge of 
-                    the stars and sea provide them with valuable information regarding changes in the seasons,
-                     when to plant gardens and hunt for turtles or the manatee-like dugong, and how to circumnavigate the seas.</p>
-                    </div>
-                        
-                </div>
-                """;
+       
 
         //Left Box
         html = html + """
@@ -405,7 +345,7 @@ public class PageIndex implements Handler {
             </div>
 
                 """;
-        */
+        
 
         // Close Content div
         html = html + "</div>";

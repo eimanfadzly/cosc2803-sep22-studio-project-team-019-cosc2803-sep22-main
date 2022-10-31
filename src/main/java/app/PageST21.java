@@ -92,6 +92,24 @@ public class PageST21 implements Handler {
                 """;
 
         html = html + """
+                <div class = 'explore'>
+                    <div class = 'longhealthylives'>
+                        <h2> Explore </h2>
+
+                        <label for = 'selectlist'></label>
+                        <select id = 'selectlist' name = 'selectlist'>
+
+                            <option value ='0'> Choose </option>
+                            <option value ='1'> Long & Healthy Lives </option>
+                            <option value ='2'> Achieving Learning Potential </option>
+                            <option value ='2'> Economic Participation </option>
+
+                        </select>
+                    </div>
+                </div>
+        """;
+
+        html = html + """
                 <div class = 'sorting-display'>
 
                     <div class = 'sorting'>
@@ -156,7 +174,7 @@ public class PageST21 implements Handler {
 
 
                 </div>
-                """;
+            """;
 
         
 
